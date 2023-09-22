@@ -1,0 +1,43 @@
+.marker{
+    --side: 4px;
+    background-color: black;
+    border-radius: 100%;
+    height: 4px;
+    height: var(--side);
+    transform: scale(0);
+    position: absolute;
+    top: calc(68%);
+    transform-origin: 50% 50%;
+    transition: transform .2s cubic-bezier(.455,.03,.515,.955);
+    width: 4px;
+    width: var(--side)
+}
+
+.nav-item:hover .marker{
+    transform: scale(1.2);
+}
+
+.markerDrop{
+    --side: 4px;
+    background-color: #4F69B9;
+    border-radius: 100%;
+    height: 4px;
+    height: var(--side);
+    opacity: 0;
+    scale: 1.3;
+    transform: translateX(-0.4em);
+    width: 4px;
+    width: var(--side);
+    transition: transform .2s ;
+    transition: margin-left .2s ;
+}
+
+.navDrop-item:hover .markerDrop{
+    transform: translateX(0);
+    margin-left: 10px;
+    opacity: 1;
+}
+
+.buttonDrop-Container:hover .group{
+    background-color: #EEF1FC;
+}
