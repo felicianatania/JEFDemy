@@ -14,6 +14,7 @@ export default {
             llightblue: '#DDE3F9',
             darkdarkblue: '#4F69B9',
             black: '#222222',
+            blackgray: '#333',
         },
         fontFamily: {
             sans: ['Poppins', 'sans-serif'],
