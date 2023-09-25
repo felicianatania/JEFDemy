@@ -2,8 +2,9 @@
 
 @section('title')
     Home
-@endsection
+    @endsection
 
 @section('content')
-    
+    Home ssss
+
 @endsection

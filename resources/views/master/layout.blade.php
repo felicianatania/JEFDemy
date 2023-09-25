@@ -200,9 +200,11 @@
         </div>
     </nav>
 
-    @yield('content')
+    <div class="mt-28">
+        @yield('content')
+    </div>
 
-    <footer class="bg-white dark:bg-maincolor">
+    <footer class="mt-60 bg-maincolor dark:bg-maincolor">
         <div class="w-[90%] mx-auto p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
@@ -251,6 +253,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
