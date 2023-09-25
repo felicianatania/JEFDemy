@@ -8,7 +8,7 @@
     <div class="py-20 bg-gray-100">
         <h1 class="w-[90%] mx-auto mb-10 text-headline font-bold">My Cart</h1>
         <div class="w-[90%] mx-auto justify-center px-6 md:flex md:space-x-6 xl:px-0">
-            <div class="md:w-2/3">
+            <div class="md:w-4/5">
                 <div class=" bg-whiteblue p-6 shadow-md sm:flex sm:justify-start">
                     <input class="mr-5" type="checkbox" name="" id="">
                     <img src="{{ Storage::url('cart/bis.jpg') }}" alt="product-image" class="w-full sm:w-80" />
@@ -16,7 +16,7 @@
                         <div class="sm:ml-4 sm:flex sm:w-full sm:justify-between">
                             <div class="mt-5 sm:mt-2">
                                 <p class="mb-4 py-1 text-subname bg-lightblue rounded-full text-center w-16">24 Juli</p>
-                                <h2 class="text-heading font-bold text-gray-900">Search Engine Optimization (SEO)</h2>
+                                <h2 class="text-heading font-semibold text-gray-900">Search Engine Optimization (SEO)</h2>
                                 <p class="mt-1 text-subheading text-gray-700">Tingkatkan market bisnismu!</p>
                                 <div class="mt-14 flex flex-row">
                                     <p class="mt-1 text-name font-semibold mr-2">4.5</p>
@@ -32,7 +32,7 @@
                                     <p class="text-subheading">Julius Hartanto</p>
                                 </div>
                                 <div class="flex items-end justify-end space-x-4">
-                                    <p class="text-heading font-bold">Rp250.000</p>
+                                    <p class="text-heading font-semibold">Rp250.000</p>
                                     <span class="cursor-pointer rounded text-white py-2 px-2 duration-100 bg-red hover:bg-darkblue hover:text-blue-50">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                             <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
@@ -57,7 +57,7 @@
                         <div class="sm:ml-4 sm:flex sm:w-full sm:justify-between">
                             <div class="mt-5 sm:mt-2">
                                 <p class="mb-4 py-1 text-subname bg-lightblue rounded-full text-center w-16">26 Juli</p>
-                                <h2 class="text-heading font-bold text-gray-900">E-Commerce (Retail)</h2>
+                                <h2 class="text-heading font-semibold text-gray-900">E-Commerce (Retail)</h2>
                                 <p class="mt-1 text-subheading text-gray-700">Bangun bisnis e-commerce pertamamu!</p>
                                 <div class="mt-14 flex flex-row">
                                     <p class="mt-1 text-name font-semibold mr-2">4.8</p>
@@ -73,7 +73,7 @@
                                     <p class="text-subheading">Dina Wijaya</p>
                                 </div>
                                 <div class="flex items-end justify-end space-x-4">
-                                    <p class="text-heading font-bold">Rp300.000</p>
+                                    <p class="text-heading font-semibold">Rp300.000</p>
                                     <span class="cursor-pointer rounded text-white py-2 px-2 duration-100 bg-red hover:bg-darkblue hover:text-blue-50">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                             <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
@@ -98,7 +98,7 @@
                         <div class="sm:ml-4 sm:flex sm:w-full sm:justify-between">
                             <div class="mt-5 sm:mt-2">
                                 <p class="mb-4 py-1 text-subname bg-lightblue rounded-full text-center w-16">28 Juli</p>
-                                <h2 class="text-heading font-bold text-gray-900">Business Analyst</h2>
+                                <h2 class="text-heading font-semibold text-gray-900">Business Analyst</h2>
                                 <p class="mt-1 text-subheading text-gray-700">Belajar semua tentang dunia bisnis analyst</p>
                                 <div class="mt-14 flex flex-row">
                                     <p class="mt-1 text-name font-semibold mr-2">4.7</p>
@@ -114,7 +114,7 @@
                                     <p class="text-subheading">Joko Sudianto</p>
                                 </div>
                                 <div class="flex items-end justify-end space-x-4">
-                                    <p class="text-heading font-bold">Rp200.000</p>
+                                    <p class="text-heading font-semibold">Rp200.000</p>
                                     <span class="cursor-pointer rounded text-white py-2 px-2 duration-100 bg-red hover:bg-darkblue hover:text-blue-50">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                             <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
@@ -135,7 +135,7 @@
 
             </div>
             <!-- Checkout -->
-            <div class="mt-6 h-full rounded-lg border bg-white p-6 shadow-md md:mt-0 md:w-1/3">
+            <div class="mt-6 h-full rounded-lg border bg-white p-6 shadow-md md:mt-0 md:w-1/5">
                 <div class="mb-5 flex justify-start">
                     <input type="checkbox" name="" id="">
                     <p class="ml-1.5 text-sm text-gray-700">Pilih Semua</p>
@@ -145,7 +145,9 @@
                 </div>
                 <p class="mb-5 text-base text-gray-700 font-medium">Rp 0</p>
                 <hr class="my-3" />
-                <button class="mt-4 w-full rounded-md bg-green py-1.5 font-medium text-white hover:bg-darkblue">Checkout (0)</button>
+                <a href="{{ url('/checkout') }}" class="flex items-center">
+                    <button class="mt-4 w-full rounded-md bg-green py-1.5 font-medium text-white hover:bg-darkblue">Checkout (0)</button>
+                </a>
             </div>
         </div>
     </div>
