@@ -200,11 +200,11 @@
         </div>
     </nav>
 
-    <div class="mt-28">
+    <div class="mt-24">
         @yield('content')
     </div>
 
-    <footer class="mt-60 bottom-0 fixed w-full bg-maincolor dark:bg-maincolor">
+    <footer class="bottom-0 w-full bg-maincolor dark:bg-maincolor">
         <div class="w-[90%] mx-auto p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
