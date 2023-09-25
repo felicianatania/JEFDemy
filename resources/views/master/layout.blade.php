@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="main.css">
 </head>
 
-<body>
+<body class="relative">
     <nav class="fixed top-0 left-0 w-screen shadow-sm bg-lightblue z-50">
         <div class="w-[90%] mx-auto py-4 flex flex-col md:flex-row md:items-center justify-between">
             <div class="flex items-center justify-between my-1 gap-5">
