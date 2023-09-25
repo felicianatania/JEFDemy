@@ -102,12 +102,14 @@
         <div class="w-full">
             <div class="m-8 my-5 w-[85%] mx-auto">
                 <div class="flex flex-row items-center justify-start mb-4">
-                    <button type="button" class="text-maincolor bg-transparent hover:text-gray-900 w-8 h-8" data-modal-hide="defaultModal">
-                        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
-                        </svg>
-                        <span class="sr-only">Close modal</span>
-                    </button>
+                    <a href="{{ url('/checkout') }}">
+                        <button type="button" class="text-maincolor bg-transparent hover:text-gray-900 w-8 h-8" data-modal-hide="defaultModal">
+                            <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                            </svg>
+                            <span class="sr-only">Close modal</span>
+                        </button>
+                    </a>
                     <h1 class="ml-2 text-3xl font-extrabold">Pembayaran</h1>
                 </div>
                 <div class="mb-5">
