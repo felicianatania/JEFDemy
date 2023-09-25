@@ -22,3 +22,6 @@ Route::get('/cart', function () {
 Route::get('/checkout', function () {
     return view('pages.checkout');
 });
+Route::get('/payment', function () {
+    return view('pages.payment');
+});

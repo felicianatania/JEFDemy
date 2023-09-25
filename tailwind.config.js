@@ -17,6 +17,8 @@ export default {
             blackgray: '#333',
             green: '#00CC00',
             red: '#CC0000',
+            orange: "#F76F02",
+            graywhite: "#F5F4F9",
         },
         fontFamily: {
             sans: ['Poppins', 'sans-serif'],

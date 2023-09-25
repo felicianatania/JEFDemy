@@ -91,9 +91,66 @@
                 <p class="mb-1 text-heading font-semibold">Rp700.000</p>
                 </div>
             </div>
-            <a href="{{ url('/payment') }}" class="text-subheading text-maincolor hover:text-black">
-                <button class="mt-6 w-full rounded-md bg-blue-500 py-1.5 font-medium text-blue-50 hover:bg-blue-600">Pilih Pembayaran</button>
-            </a>
+            <button class="mt-6 w-full rounded-md bg-blue-500 py-1.5 font-medium text-blue-50 hover:bg-blue-600">Pilih Pembayaran</button>
+        </div>
+    </div>
+</div>
+
+{{-- Pop Up --}}
+<div class="mt-10 fixed left-0 top-0 flex h-full w-full items-center justify-center bg-black bg-opacity-50 py-10">
+    <div class="max-h-full w-full max-w-xl overflow-y-auto bg-white">
+        <div class="w-full">
+            <div class="m-8 my-5 w-[85%] mx-auto">
+                <div class="flex flex-row items-center justify-start mb-4">
+                    <button type="button" class="text-maincolor bg-transparent hover:text-gray-900 w-8 h-8" data-modal-hide="defaultModal">
+                        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                        </svg>
+                        <span class="sr-only">Close modal</span>
+                    </button>
+                    <h1 class="ml-2 text-3xl font-extrabold">Pembayaran</h1>
+                </div>
+                <div class="mb-5">
+                    <p class="text-gray-600 text-subheading">Finish your payment in <span class="text-orange">00 : 28 : 54</span></p>
+                </div>
+                <hr class="h-px my-3 bg-lightblue border-0 dark:bg-lightblue">
+                <div class="flex flex-row justify-between mb-3">
+                    <span class="text-heading font-semibold">Metode Pembayaran</span>
+                    <span class="text-subname text-maincolor mt-1">Lihat semua</span>
+                </div>
+                <div class="space-y-4 mb-6">
+                    <div class="flex flex-row justify-between bg-graywhite border rounded-lg px-4">
+                        <div class="flex flex-row items-center justify-start">
+                            <img src="{{ Storage::url('payment/bca.png') }}" alt="">
+                            <button class="p-3 w-full font-semibold">BCA Virtual Account</button>
+                        </div>
+                        <input type="radio" name="" id="">
+                    </div>
+                    <div class="flex flex-row justify-between bg-graywhite border rounded-lg px-4">
+                        <div class="flex flex-row items-center justify-start">
+                            <img src="{{ Storage::url('payment/mandiri.png') }}" alt="">
+                            <button class="p-3 w-full font-semibold">Mandiri Virtual Account</button>
+                        </div>
+                        <input type="radio" name="" id="">
+                    </div>
+                </div>
+                <hr class="h-px my-3 bg-lightblue border-0 dark:bg-lightblue">
+                <div class="text-heading font-semibold">Ringkasan Pesanan</div>
+                <div class="flex flex-row justify-between mt-6">
+                    <span class="text-name font-semibold">Total Harga</span>
+                    <span class="text-subheading font-semibold mt-1">Rp750.000</span>
+                </div>
+                <div class="flex flex-row justify-between mb-10 mt-2">
+                    <span class="text-name font-semibold">Diskon</span>
+                    <span class="text-subheading font-semibold mt-1">Rp50.000</span>
+                </div>
+                <hr class="h-px my-3 bg-gray-200 h-1 border-0">
+                <div class="flex flex-row justify-between mb-3 mt-2">
+                    <span class="text-heading font-semibold">Total Tagihan</span>
+                    <span class="text-heading text-orange font-semibold mt-1">Rp700.000</span>
+                </div>
+                <button class="p-3 text-white text-heading bg-darkblue border rounded-md w-full font-semibold">Bayar dengan Virtual Account</button>
+            </div>
         </div>
     </div>
 </div>
