@@ -182,7 +182,7 @@
                         Saya</a>
                     <div class="marker"></div>
                 </div>
-                <a href="{{ url('/') }}"
+                <a href="{{ url('/cart') }}"
                     class="md:flex hidden items-center justify-center h-10 w-10 rounded-full hover:bg-whiteblue hover:shadow-sm transition ease-linear">
                     <img class="h-6" src="{{ Storage::url('icon/cart.svg') }}" alt="logo">
                 </a>
@@ -200,8 +200,9 @@
         </div>
     </nav>
 
+    @yield('content')
 
-    <footer class="my-60 bg-white dark:bg-maincolor">
+    <footer class="bg-white dark:bg-maincolor">
         <div class="w-[90%] mx-auto p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
@@ -248,14 +249,8 @@
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     </footer>
-
-
-    @yield('content')
 </body>
 
 </html>
