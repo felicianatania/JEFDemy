@@ -151,4 +151,127 @@
             </a>
         </div>
     </div>
+
+    <div class="px-[5%] py-10 w-full text-center" style="background: linear-gradient(57deg, #DDE3F9 28.49%, rgba(221, 227, 249, 0.00) 77.5%);">
+        <h1 class="text-left text-title text-black font-semibold">💸 Harga Diskon</h1>
+        <div class="my-5 flex gap-[2.7%] overflow-x-auto">
+            <div class="w-[23%] h-fit bg-white rounded text-left">
+                <img class="w-full" src="{{ Storage::url('home/machine-learning.png') }}" alt="course image">
+                <div class="m-5">
+                    <div class="flex justify-between items-center">
+                        <img class="w-14" src="{{ Storage::url('home/google-logo.png') }}" alt="">
+                        <p class="text-black text-subname font-medium">4.5 ⭐️ <span class="font-light text-[10px]">(8.2k ulasan)</span></p>
+                    </div>
+                    <h1 class="mt-2 text-black text-name font-medium">Machine Learning</h1>
+                    <p class="text-black text-subname font-light line-clamp-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis pellentesque egestas. Vivamus venenatis eros non odio accumsan, eget </p>
+                    <h2 class="my-2 text-black text-subheading font-medium">Rp250.000,00</h2>
+                    <p class="text-black text-light font-light line-clamp-2">Beginner • 6 bulan</p>
+                </div>
+            </div>
+            <div class="w-[23%] h-fit bg-white rounded text-left">
+                <img class="w-full" src="{{ Storage::url('home/machine-learning.png') }}" alt="course image">
+                <div class="m-5">
+                    <div class="flex justify-between items-center">
+                        <img class="w-14" src="{{ Storage::url('home/google-logo.png') }}" alt="">
+                        <p class="text-black text-subname font-medium">4.5 ⭐️ <span class="font-light text-[10px]">(8.2k ulasan)</span></p>
+                    </div>
+                    <h1 class="mt-2 text-black text-name font-medium">Machine Learning</h1>
+                    <p class="text-black text-subname font-light line-clamp-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis pellentesque egestas. Vivamus venenatis eros non odio accumsan, eget </p>
+                    <h2 class="my-2 text-black text-subheading font-medium">Rp250.000,00</h2>
+                    <p class="text-black text-light font-light line-clamp-2">Beginner • 6 bulan</p>
+                </div>
+            </div>
+            <div class="w-[23%] h-fit bg-white rounded text-left">
+                <img class="w-full" src="{{ Storage::url('home/machine-learning.png') }}" alt="course image">
+                <div class="m-5">
+                    <div class="flex justify-between items-center">
+                        <img class="w-14" src="{{ Storage::url('home/google-logo.png') }}" alt="">
+                        <p class="text-black text-subname font-medium">4.5 ⭐️ <span class="font-light text-[10px]">(8.2k ulasan)</span></p>
+                    </div>
+                    <h1 class="mt-2 text-black text-name font-medium">Machine Learning</h1>
+                    <p class="text-black text-subname font-light line-clamp-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis pellentesque egestas. Vivamus venenatis eros non odio accumsan, eget </p>
+                    <h2 class="my-2 text-black text-subheading font-medium">Rp250.000,00</h2>
+                    <p class="text-black text-light font-light line-clamp-2">Beginner • 6 bulan</p>
+                </div>
+            </div>
+            <div class="w-[23%] h-fit bg-white rounded text-left">
+                <img class="w-full" src="{{ Storage::url('home/machine-learning.png') }}" alt="course image">
+                <div class="m-5">
+                    <div class="flex justify-between items-center">
+                        <img class="w-14" src="{{ Storage::url('home/google-logo.png') }}" alt="">
+                        <p class="text-black text-subname font-medium">4.5 ⭐️ <span class="font-light text-[10px]">(8.2k ulasan)</span></p>
+                    </div>
+                    <h1 class="mt-2 text-black text-name font-medium">Machine Learning</h1>
+                    <p class="text-black text-subname font-light line-clamp-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis pellentesque egestas. Vivamus venenatis eros non odio accumsan, eget </p>
+                    <h2 class="my-2 text-black text-subheading font-medium">Rp250.000,00</h2>
+                    <p class="text-black text-light font-light line-clamp-2">Beginner • 6 bulan</p>
+                </div>
+            </div>
+        </div>
+        <a class="btn-secondary" href="">Lihat Semua</a>
+    </div>
+
+    <div class="px-[5%] py-10 w-full text-center bg-gradient-to-t from-llightblue via-whiteblue to-white">
+        <h1 class="text-left text-title text-black font-semibold">🔥 Bootcamp Populer</h1>
+        <div class="my-5 flex gap-[2.7%] overflow-x-auto">
+            <div class="w-[23%] h-fit bg-white rounded text-left">
+                <img class="w-full" src="{{ Storage::url('home/machine-learning.png') }}" alt="course image">
+                <div class="m-5">
+                    <div class="flex justify-between items-center">
+                        <img class="w-14" src="{{ Storage::url('home/google-logo.png') }}" alt="">
+                        <p class="text-black text-subname font-medium">4.5 ⭐️ <span class="font-light text-[10px]">(8.2k ulasan)</span></p>
+                    </div>
+                    <h1 class="mt-2 text-black text-name font-medium">Machine Learning</h1>
+                    <p class="text-black text-subname font-light line-clamp-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis pellentesque egestas. Vivamus venenatis eros non odio accumsan, eget </p>
+                    <h2 class="my-2 text-black text-subheading font-medium">Rp250.000,00</h2>
+                    <p class="text-black text-light font-light line-clamp-2">Beginner • 6 bulan</p>
+                </div>
+            </div>
+            <div class="w-[23%] h-fit bg-white rounded text-left">
+                <img class="w-full" src="{{ Storage::url('home/machine-learning.png') }}" alt="course image">
+                <div class="m-5">
+                    <div class="flex justify-between items-center">
+                        <img class="w-14" src="{{ Storage::url('home/google-logo.png') }}" alt="">
+                        <p class="text-black text-subname font-medium">4.5 ⭐️ <span class="font-light text-[10px]">(8.2k ulasan)</span></p>
+                    </div>
+                    <h1 class="mt-2 text-black text-name font-medium">Machine Learning</h1>
+                    <p class="text-black text-subname font-light line-clamp-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis pellentesque egestas. Vivamus venenatis eros non odio accumsan, eget </p>
+                    <h2 class="my-2 text-black text-subheading font-medium">Rp250.000,00</h2>
+                    <p class="text-black text-light font-light line-clamp-2">Beginner • 6 bulan</p>
+                </div>
+            </div>
+            <div class="w-[23%] h-fit bg-white rounded text-left">
+                <img class="w-full" src="{{ Storage::url('home/machine-learning.png') }}" alt="course image">
+                <div class="m-5">
+                    <div class="flex justify-between items-center">
+                        <img class="w-14" src="{{ Storage::url('home/google-logo.png') }}" alt="">
+                        <p class="text-black text-subname font-medium">4.5 ⭐️ <span class="font-light text-[10px]">(8.2k ulasan)</span></p>
+                    </div>
+                    <h1 class="mt-2 text-black text-name font-medium">Machine Learning</h1>
+                    <p class="text-black text-subname font-light line-clamp-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis pellentesque egestas. Vivamus venenatis eros non odio accumsan, eget </p>
+                    <h2 class="my-2 text-black text-subheading font-medium">Rp250.000,00</h2>
+                    <p class="text-black text-light font-light line-clamp-2">Beginner • 6 bulan</p>
+                </div>
+            </div>
+            <div class="w-[23%] h-fit bg-white rounded text-left">
+                <img class="w-full" src="{{ Storage::url('home/machine-learning.png') }}" alt="course image">
+                <div class="m-5">
+                    <div class="flex justify-between items-center">
+                        <img class="w-14" src="{{ Storage::url('home/google-logo.png') }}" alt="">
+                        <p class="text-black text-subname font-medium">4.5 ⭐️ <span class="font-light text-[10px]">(8.2k ulasan)</span></p>
+                    </div>
+                    <h1 class="mt-2 text-black text-name font-medium">Machine Learning</h1>
+                    <p class="text-black text-subname font-light line-clamp-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis pellentesque egestas. Vivamus venenatis eros non odio accumsan, eget </p>
+                    <h2 class="my-2 text-black text-subheading font-medium">Rp250.000,00</h2>
+                    <p class="text-black text-light font-light line-clamp-2">Beginner • 6 bulan</p>
+                </div>
+            </div>
+        </div>
+        <a class="btn-secondary" href="">Lihat Semua</a>
+
+        <div class="my-10">
+            <h1 class="text-left text-title text-black font-semibold my-4">Dipercaya oleh Mitra Luar Biasa</h1>
+            <img class="w-4/5" src="{{ Storage::url('home/companies.png') }}" alt="companies image">
+        </div>
+    </div>
 @endsection
