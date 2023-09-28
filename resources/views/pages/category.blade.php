@@ -12,24 +12,22 @@
     <div class="bg-llightblue pb-56 mx-auto">
         <div class="w-11/12 mx-auto">
             <div class="flex flex-col-reverse md:flex-row items-center py-8">
-                <div class="mx-2 md:w-1/2">
-                    <h1 class="font-bold my-4 text-headline text-black">
-                        Desain
-                    </h1>
-                    <p class="my-6 font-normal">
-                        Tampilkan kekuatan kreativitas Anda dalam eksplorasi mendalam tentang dunia desain. Dalam halaman
-                        ini, kami membuka pintu untuk memahami setiap aspek desain, mulai dari konsep awal hingga
-                        pelaksanaan yang cermat. Temukan inspirasi yang tak terbatas dan pengetahuan mendalam yang akan
-                        membantu Anda memahami daya tarik desain modern. Dari seni visual hingga praktik terbaik dalam
-                        industri, kami menyajikan wawasan yang mendalam untuk membantu Anda berkembang sebagai seorang
-                        desainer yang berbakat.
-                    </p>
+                <div class="mx-2 md:w-1/2 flex justify-center items-center">
+                    <div>
+                        <h1 class="font-bold my-4 text-headline text-black text-center md:text-left">
+                            Desain
+                        </h1>
+                        <p class="my-6 font-normal text-center md:text-left">
+                            Tampilkan kekuatan kreativitas Anda dalam eksplorasi mendalam tentang dunia desain. Dalam halaman ini, kami membuka pintu untuk memahami setiap aspek desain, mulai dari konsep awal hingga pelaksanaan yang cermat. Temukan inspirasi yang tak terbatas dan pengetahuan mendalam yang akan membantu Anda memahami daya tarik desain modern. Dari seni visual hingga praktik terbaik dalam industri, kami menyajikan wawasan yang mendalam untuk membantu Anda berkembang sebagai seorang desainer yang berbakat.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="md:w-1/2">
-                    <img src="{{ Storage::url('category/desainHero.png') }}" alt="Desain Hero">
+                    <img src="{{ Storage::url('category/desainHero.png') }}" alt="Desain Hero" class="mx-auto"> <!-- Tambah class mx-auto untuk mengatur gambar agar tetap berada di tengah -->
                 </div>
             </div>
+
 
             <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 text-center text-black font-medium text-name">
