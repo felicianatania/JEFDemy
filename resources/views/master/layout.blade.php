@@ -200,7 +200,7 @@
         </div>
     </nav>
 
-    <div class="mt-24">
+    <div class="mt-24 bg-whiteblue">
         @yield('content')
     </div>
 

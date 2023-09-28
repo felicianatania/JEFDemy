@@ -25,3 +25,6 @@ Route::get('/checkout', function () {
 Route::get('/payment', function () {
     return view('pages.payment');
 });
+Route::get('/category', function () {
+    return view('pages.category');
+});

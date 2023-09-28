@@ -146,7 +146,7 @@
                     <span class="text-name font-semibold">Diskon</span>
                     <span class="text-subheading font-semibold mt-1">Rp50.000</span>
                 </div>
-                <hr class="h-px my-3 bg-gray-200 h-1 border-0">
+                <hr class="h-px my-3 bg-gray-200 border-0">
                 <div class="flex flex-row justify-between mb-3 mt-2">
                     <span class="text-heading font-semibold">Total Tagihan</span>
                     <span class="text-heading text-orange font-semibold mt-1">Rp700.000</span>

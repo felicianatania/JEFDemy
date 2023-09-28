@@ -5,11 +5,11 @@
 @endsection
 
 @section('content')
-    <div class="py-20 bg-gray-100">
+    <div class="py-20">
         <h1 class="w-[90%] mx-auto mb-10 text-headline font-bold">My Cart</h1>
         <div class="w-[90%] mx-auto justify-center px-6 md:flex md:space-x-6 xl:px-0">
-            <div class="md:w-4/5">
-                <div class=" bg-whiteblue p-6 shadow-md sm:flex sm:justify-start">
+            <div class="md:w-4/5 shadow-lg">
+                <div class=" bg-whiteblue p-6 shadow-xl sm:flex sm:justify-start">
                     <input class="mr-5" type="checkbox" name="" id="">
                     <img src="{{ Storage::url('cart/bis.jpg') }}" alt="product-image" class="w-full sm:w-80" />
                     <div class="flex flex-col sm:flex sm:w-full sm:justify-between px-6">
@@ -49,7 +49,7 @@
                     </div>
 
                 </div>
-                <hr class="" />
+                <hr class="h-0.5 mx-auto bg-gray-300" />
                 <div class=" bg-whiteblue p-6 shadow-md sm:flex sm:justify-start">
                     <input class="mr-5" type="checkbox" name="" id="">
                     <img src="{{ Storage::url('cart/bis2.jpg') }}" alt="product-image" class="w-full sm:w-80" />
@@ -90,7 +90,7 @@
                     </div>
 
                 </div>
-                <hr class="" />
+                <hr class="h-0.5 mx-auto bg-gray-300" />
                 <div class=" bg-whiteblue p-6 shadow-md sm:flex sm:justify-start">
                     <input class="mr-5" type="checkbox" name="" id="">
                     <img src="{{ Storage::url('cart/bis3.jpg') }}" alt="product-image" class="w-full sm:w-80" />
@@ -131,7 +131,7 @@
                     </div>
 
                 </div>
-                <hr class="" />
+                <hr class="h-0.5 mx-auto bg-gray-300" />
 
             </div>
             <!-- Checkout -->
