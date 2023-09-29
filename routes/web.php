@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,6 +26,5 @@ Route::get('/checkout', function () {
 Route::get('/payment', function () {
     return view('pages.payment');
 });
-Route::get('/category', function () {
-    return view('pages.category');
-});
+
+Route::get('/category', [HomeController::class, 'show'])->name('category');
